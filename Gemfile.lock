@@ -82,15 +82,16 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  activerecord (~> 4.1)
-  activesupport (~> 4.1)
+  activerecord (~> 4.2.0)
+  activesupport (~> 4.2.0)
   capybara
   factory_girl
   faker
+  nokogiri
   pg
   rack-test
   rake
-  rspec
+  rspec (~> 3.0)
   shotgun
   shoulda-matchers
   sinatra
