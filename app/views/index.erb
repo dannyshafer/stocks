@@ -1,8 +1,9 @@
-</br></br></br></br></br></br></br></br>
+</br></br></br></br></br>
 
 <div class="row">
   <div class="large-6 columns">
-<h3>Let's hatch something together</h3>
+    <br><br>
+    <h3>Let's hatch something together</h3>
 </div>
 
   <div class="large-6 columns">
@@ -10,9 +11,24 @@
       <p>Type in a mutual fund you'd like to analyze here:</p>
 
       <input type="text" name="fund" placeholder="Fund Symbol" />
-
       <input type="submit" value="Hatch" class="button postfix"/>
 
 </form>
+
 </div>
+</div>
+<div class="row">
+  <div class="small-6 columns">
+    <p>Join the party!</p>
+    <form method="post" action="/sign_up">
+      <input type="text" name="username" placeholder="Username">
+      <input type="text" name="password" placeholder="Password">
+      <input type="submit" value="Sign up!" class="button success">
+    </form>
+  </div>
+
+  <div class="small-4 small-offest-2 columns">
+      <br><br>
+      <a href="/login.erb" class="button success">Login</a>
+  </div>
 </div>

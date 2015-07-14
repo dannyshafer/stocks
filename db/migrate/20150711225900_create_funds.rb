@@ -14,6 +14,7 @@ class CreateFunds < ActiveRecord::Migration
       t.string :three_yr_beta
       t.string :rank_in_category
       t.string :percent_rank_in_category
+      t.integer :user_id
 
       t.timestamps
     end
